@@ -1,0 +1,4 @@
+#!/bin/sh
+export MACADDR=$1
+shift
+LD_PRELOAD=libfakemac.so $*
