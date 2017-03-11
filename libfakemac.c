@@ -1,11 +1,10 @@
-// libencheez, part of MAC-encheez
-// $Id$
-// Copyright 2008 Eric Smith <eric@brouhaha.com>
+// libfakemac, part of MAC-encheez
+// Copyright 2008, 2017 Eric Smith <spacewar@gmail.com>
 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License version 3 as
 // published by the Free Software Foundation.  Note that no permission
-// is granting to redistribute or modify this program under the terms
+// is granted to redistribute or modify this program under the terms
 // of any other version of the General Public License.
 // 
 // This program is distributed in the hope that it will be useful, but

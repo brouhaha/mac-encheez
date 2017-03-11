@@ -1,4 +1,8 @@
 #!/bin/sh
+
+# encheez script, part of mac-encheez
+# Copyright 2008, 2017 Eric Smith <spacewar@gmail.com>
+
 export MACADDR=$1
 shift
 LD_PRELOAD=libfakemac.so $*
