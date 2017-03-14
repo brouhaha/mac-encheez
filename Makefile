@@ -23,11 +23,10 @@ PREFIX = /usr/local
 LIBDIR = $(PREFIX)/lib
 BINDIR = $(PREFIX)/bin
 
+CFLAGS = -Wall -Wextra -Werror
+override CFLAGS += -fpic
 
 all: libfakemac.so
-
-CFLAGS += -Wall -Wextra -Werror -fpic
-
 
 libfakemac.o: libfakemac.c
 
